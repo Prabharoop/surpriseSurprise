@@ -1,0 +1,88 @@
+body{
+  background-color: #111;
+  font-family: Signika Negative, Asap, sans-serif;
+  color:white;
+  overflow:hidden;
+}
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(http://www.clipartqueen.com/image-files/red-lobed-fall-clipart-leaf.png);
+  background-size: 100% 100%;
+}
+
+.center .main {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.center .main h1{
+  font-family: Brush Script MT, Brush Script Std, cursive	;
+  font-size: 7vmax;
+}
+
+.center .sec {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  top: 60%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.center .sec .text{
+  font-family: Segoe Script;
+  font-size: 3vmax;
+  opacity: 0.8;
+  text-align: center;
+  text-align-last: center;
+}
+.center .aud {
+  position: absolute;
+  top: 78%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) 
+}
+
+.center .aud button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vmax;
+  border-radius: 8px;
+  font-family: Segoe Script;
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer p{
+  font-weight: bold;
+  opacity: 0.5;
+}
+
+html, body, #container {width:100%; height:100%; }
+#logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
+
+
+
+#DiacoDesignLink,#pens{
+  color: #fff;
+}
